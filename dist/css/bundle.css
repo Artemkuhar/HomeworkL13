@@ -1,0 +1,876 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 902px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Lato;
+  font-size: 34px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 5.4px;
+  text-align: center;
+}
+
+section#page1 {
+  width: 100%;
+  background-image: url("../../dist/img/bgpage1.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section#page1 .block1Logo {
+  padding-top: 286px;
+  text-align: center;
+}
+
+section#page1 .block2 {
+  margin-top: 96px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 54px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 8.6px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+section#page1 .block3 {
+  margin-top: 53px;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.93;
+  letter-spacing: 0.9px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+section#page1 .block4img {
+  padding-top: 255px;
+  text-align: center;
+  padding-bottom: 115px;
+}
+
+section#page2 {
+  width: 100%;
+  background-color: #fff;
+}
+
+section#page2 fieldset {
+  width: 900px;
+  border: solid 2px #3c3c3c;
+  padding-bottom: 53px;
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+
+section#page2 fieldset legend {
+  padding: 0 110px;
+  font-size: 34px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 5.4px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #3c3c3c;
+}
+
+section#page2 fieldset p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.62;
+  letter-spacing: normal;
+  text-align: center;
+  color: #3c3c3c;
+  padding-top: 76px;
+}
+
+section#page3 {
+  width: 100%;
+  background-image: url("../../dist/img/bgpage3.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 128px;
+  padding-bottom: 109px;
+}
+
+section#page3 fieldset {
+  width: 900px;
+  border: solid 2px #ffffff;
+  padding-bottom: 55px;
+}
+
+section#page3 fieldset legend {
+  padding: 0 110px;
+  font-size: 34px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 5.4px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+
+section#page3 fieldset p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.62;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 77px;
+}
+
+section#page4 {
+  width: 100%;
+  background-color: #fff;
+  padding-top: 119px;
+  padding-bottom: 114px;
+}
+
+section#page4 fieldset {
+  width: 900px;
+  border: solid 2px #3c3c3c;
+}
+
+section#page4 fieldset legend {
+  padding: 0 110px;
+  font-size: 34px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 5.4px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #3c3c3c;
+  text-transform: uppercase;
+}
+
+section#page4 fieldset .blockpage4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 125px;
+  padding-bottom: 92px;
+}
+
+section#page4 fieldset .blockpage4 h2 {
+  padding-top: 40px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3.2px;
+  text-align: center;
+  color: #3c3c3c;
+  text-transform: uppercase;
+}
+
+section#page4 fieldset .blockpage4 p {
+  text-align: center;
+  padding-top: 40px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+  text-align: center;
+  color: #3c3c3c;
+}
+
+section#page5 {
+  width: 100%;
+}
+
+section#page5 .contentPage5Line1,
+section#page5 .contentPage5Line2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+section#page5 .contentPage5Line1 .Page5img1,
+section#page5 .contentPage5Line2 .Page5img1 {
+  background-image: url("../../dist/img/Layer1.png");
+  width: 30%;
+  height: 237px;
+  border: solid 5px #fff;
+  cursor: pointer;
+}
+
+section#page5 .contentPage5Line1 .Page5img2,
+section#page5 .contentPage5Line2 .Page5img2 {
+  background-image: url("../../dist/img/Layer2.png");
+  width: 40%;
+  height: 237px;
+  border: solid 5px #fff;
+  cursor: pointer;
+}
+
+section#page5 .contentPage5Line1 .Page5img3,
+section#page5 .contentPage5Line2 .Page5img3 {
+  background-image: url("../../dist/img/Layer3.png");
+  width: 30%;
+  height: 237px;
+  border: solid 5px #fff;
+  cursor: pointer;
+}
+
+section#page5 .contentPage5Line1 .Page5img4,
+section#page5 .contentPage5Line2 .Page5img4 {
+  background-image: url("../../dist/img/Layer4.png");
+  width: 30%;
+  height: 237px;
+  border: solid 5px #fff;
+  cursor: pointer;
+}
+
+section#page5 .contentPage5Line1 .Page5img5,
+section#page5 .contentPage5Line2 .Page5img5 {
+  background-image: url("../../dist/img/Layer5.png");
+  width: 40%;
+  height: 237px;
+  border: solid 5px #fff;
+  cursor: pointer;
+}
+
+section#page5 .contentPage5Line1 .Page5img6,
+section#page5 .contentPage5Line2 .Page5img6 {
+  background-image: url("../../dist/img/Layer6.png");
+  width: 30%;
+  height: 237px;
+  border: solid 5px #fff;
+  cursor: pointer;
+}
+
+section#page5 .contentPage5Line1 p,
+section#page5 .contentPage5Line2 p {
+  padding-top: 160px;
+  padding-left: 30px;
+  font-family: Lato;
+  font-size: 34px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 5.4px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+section#pege6 {
+  width: 100%;
+}
+
+section#pege6 .container {
+  margin: 0 auto;
+}
+
+section#pege6 .container fieldset {
+  width: 900px;
+  border: solid 2px #3c3c3c;
+  text-align: center;
+  margin-top: 128px;
+}
+
+section#pege6 .container fieldset legend {
+  padding: 0 110px;
+  font-size: 34px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 5.4px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #3c3c3c;
+  text-transform: uppercase;
+}
+
+section#pege6 .container fieldset p {
+  text-align: center;
+  padding-top: 40px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.62;
+  letter-spacing: normal;
+  text-align: center;
+  color: #3c3c3c;
+  padding: 76px 180px 0;
+}
+
+section#pege6 .container fieldset button {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.6px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 395px;
+  height: 58px;
+  background-color: #3c3c3c;
+  border: solid 2px #3c3c3c;
+  margin: 42px 0 52px 0;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 63px;
+  text-align: center;
+}
+
+footer .contentPage6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+footer .contentPage6 img {
+  padding-right: 38px;
+}
+@media (min-width: 1171px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 902px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-family: Lato;
+    font-size: 34px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 5.4px;
+    text-align: center;
+  }
+
+  section#page1 {
+    width: 100%;
+    background-image: url("../../dist/img/bgpage1.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  section#page1 .block1Logo {
+    padding-top: 286px;
+    text-align: center;
+  }
+
+  section#page1 .block2 {
+    margin-top: 96px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 54px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 8.6px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  section#page1 .block3 {
+    margin-top: 53px;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.93;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  section#page1 .block4img {
+    padding-top: 255px;
+    text-align: center;
+    padding-bottom: 115px;
+  }
+
+  section#page2 {
+    width: 100%;
+    background-color: #fff;
+  }
+
+  section#page2 fieldset {
+    width: 900px;
+    border: solid 2px #3c3c3c;
+    padding-bottom: 53px;
+    margin-top: 160px;
+    margin-bottom: 160px;
+  }
+
+  section#page2 fieldset legend {
+    padding: 0 110px;
+    font-size: 34px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 5.4px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #3c3c3c;
+  }
+
+  section#page2 fieldset p {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.62;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3c3c3c;
+    padding-top: 76px;
+  }
+
+  section#page3 {
+    width: 100%;
+    background-image: url("../../dist/img/bgpage3.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 128px;
+    padding-bottom: 109px;
+  }
+
+  section#page3 fieldset {
+    width: 900px;
+    border: solid 2px #ffffff;
+    padding-bottom: 55px;
+  }
+
+  section#page3 fieldset legend {
+    padding: 0 110px;
+    font-size: 34px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 5.4px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  section#page3 fieldset p {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.62;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 77px;
+  }
+
+  section#page4 {
+    width: 100%;
+    background-color: #fff;
+    padding-top: 119px;
+    padding-bottom: 114px;
+  }
+
+  section#page4 fieldset {
+    width: 900px;
+    border: solid 2px #3c3c3c;
+  }
+
+  section#page4 fieldset legend {
+    padding: 0 110px;
+    font-size: 34px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 5.4px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #3c3c3c;
+    text-transform: uppercase;
+  }
+
+  section#page4 fieldset .blockpage4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 125px;
+    padding-bottom: 92px;
+  }
+
+  section#page4 fieldset .blockpage4 h2 {
+    padding-top: 40px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: center;
+    color: #3c3c3c;
+    text-transform: uppercase;
+  }
+
+  section#page4 fieldset .blockpage4 p {
+    text-align: center;
+    padding-top: 40px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.85;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3c3c3c;
+  }
+
+  section#page5 {
+    width: 100%;
+  }
+
+  section#page5 .contentPage5Line1,
+  section#page5 .contentPage5Line2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  section#page5 .contentPage5Line1 .Page5img1,
+  section#page5 .contentPage5Line2 .Page5img1 {
+    background-image: url("../../dist/img/Layer1.png");
+    width: 30%;
+    height: 237px;
+    border: solid 5px #fff;
+    cursor: pointer;
+  }
+
+  section#page5 .contentPage5Line1 .Page5img2,
+  section#page5 .contentPage5Line2 .Page5img2 {
+    background-image: url("../../dist/img/Layer2.png");
+    width: 40%;
+    height: 237px;
+    border: solid 5px #fff;
+    cursor: pointer;
+  }
+
+  section#page5 .contentPage5Line1 .Page5img3,
+  section#page5 .contentPage5Line2 .Page5img3 {
+    background-image: url("../../dist/img/Layer3.png");
+    width: 30%;
+    height: 237px;
+    border: solid 5px #fff;
+    cursor: pointer;
+  }
+
+  section#page5 .contentPage5Line1 .Page5img4,
+  section#page5 .contentPage5Line2 .Page5img4 {
+    background-image: url("../../dist/img/Layer4.png");
+    width: 30%;
+    height: 237px;
+    border: solid 5px #fff;
+    cursor: pointer;
+  }
+
+  section#page5 .contentPage5Line1 .Page5img5,
+  section#page5 .contentPage5Line2 .Page5img5 {
+    background-image: url("../../dist/img/Layer5.png");
+    width: 40%;
+    height: 237px;
+    border: solid 5px #fff;
+    cursor: pointer;
+  }
+
+  section#page5 .contentPage5Line1 .Page5img6,
+  section#page5 .contentPage5Line2 .Page5img6 {
+    background-image: url("../../dist/img/Layer6.png");
+    width: 30%;
+    height: 237px;
+    border: solid 5px #fff;
+    cursor: pointer;
+  }
+
+  section#page5 .contentPage5Line1 p,
+  section#page5 .contentPage5Line2 p {
+    padding-top: 160px;
+    padding-left: 30px;
+    font-family: Lato;
+    font-size: 34px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 5.4px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  section#pege6 {
+    width: 100%;
+  }
+
+  section#pege6 .container {
+    margin: 0 auto;
+  }
+
+  section#pege6 .container fieldset {
+    width: 900px;
+    border: solid 2px #3c3c3c;
+    text-align: center;
+    margin-top: 128px;
+  }
+
+  section#pege6 .container fieldset legend {
+    padding: 0 110px;
+    font-size: 34px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 5.4px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #3c3c3c;
+    text-transform: uppercase;
+  }
+
+  section#pege6 .container fieldset p {
+    text-align: center;
+    padding-top: 40px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.62;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3c3c3c;
+    padding: 76px 180px 0;
+  }
+
+  section#pege6 .container fieldset button {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2.6px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 395px;
+    height: 58px;
+    background-color: #3c3c3c;
+    border: solid 2px #3c3c3c;
+    margin: 42px 0 52px 0;
+    border: none;
+    cursor: pointer;
+  }
+
+  footer {
+    margin-top: 63px;
+    text-align: center;
+  }
+
+  footer .contentPage6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  footer .contentPage6 img {
+    padding-right: 38px;
+  }
+}
+
+@media (max-width: 1170px) {
+  section#page5 .contentPage5Line1 p,
+  section#page5 .contentPage5Line2 p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+
+  section#page4 fieldset {
+    width: 698px;
+  }
+
+  section#pege6 .container fieldset {
+    width: 698px;
+  }
+
+  section#page3 fieldset {
+    width: 698px;
+  }
+
+  section#page2 fieldset {
+    width: 698px;
+  }
+
+  section#page5 .contentPage5Line1,
+  section#page5 .contentPage5Line2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section#page5 .contentPage5Line1 .Page5img1,
+  section#page5 .contentPage5Line1 .Page5img2,
+  section#page5 .contentPage5Line1 .Page5img3,
+  section#page5 .contentPage5Line2 .Page5img4,
+  section#page5 .contentPage5Line2 .Page5img5,
+  section#page5 .contentPage5Line2 .Page5img6 {
+    width: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  section#page1 .block2 {
+    font-size: 30px;
+  }
+
+  section#page4 fieldset {
+    width: 300px;
+  }
+
+  section#page4 fieldset legend {
+    padding: 0 10px;
+    font-size: 15px;
+  }
+
+  section#page4 fieldset .blockpage4 {
+    padding: 20px;
+  }
+
+  section#pege6 .container fieldset {
+    width: 300px;
+  }
+
+  section#pege6 .container fieldset legend {
+    padding: 0 10px;
+    font-size: 15px;
+  }
+
+  section#pege6 .container fieldset button {
+    width: 200px;
+  }
+
+  section#pege6 .container fieldset p {
+    padding: 20px;
+  }
+
+  section#page3 fieldset {
+    width: 300px;
+  }
+
+  section#page3 fieldset legend {
+    padding: 0 10px;
+    font-size: 15px;
+  }
+
+  section#page3 fieldset p {
+    padding: 40px 20px;
+  }
+
+  section#page2 fieldset {
+    width: 300px;
+  }
+
+  section#page2 fieldset legend {
+    padding: 0 10px;
+    font-size: 15px;
+  }
+
+  section#page2 fieldset p {
+    padding: 40px 20px;
+  }
+
+  section#page5 .contentPage5Line1,
+  section#page5 .contentPage5Line2 {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  footer p {
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=media1170.css.map */
+/*# sourceMappingURL=media768.css.map */
+/*# sourceMappingURL=media992.css.map */
+/*# sourceMappingURL=mixins.css.map */
