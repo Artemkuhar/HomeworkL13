@@ -8,3 +8,4 @@ app/
 package-lock.json
 package.json
 gulpfile.js
+.gitignore
